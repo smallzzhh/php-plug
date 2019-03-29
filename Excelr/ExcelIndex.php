@@ -30,7 +30,7 @@ class ExcelIndex
      * @param $arr_hb       （可选）是否合并单元格 参数：['A' => 'order_sn', 'B' => 'order_sn']
      * @throws \PHPExcel_Exception
      */
-    public function Export($data, $title, $filename, $cellNames, $arr_hb)
+    public function Export($data, $title, $filename, $cellNames, $arr_hb=[])
     {
         $cellName = [];
         foreach ($cellNames as $key => $val) {
