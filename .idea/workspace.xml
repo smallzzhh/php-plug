@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ec1b70b-e65e-4858-9c36-f3cbd9505087" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Build/PharStub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Build/build-release-documentation.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Build/build-release-pear.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Build/build-release-phar.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Build/build-release-standard.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Build/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/CachedObjectStorage/APC.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/CachedObjectStorage/CacheBase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/CachedObjectStorage/DiscISAM.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/CachedObjectStorage/ICache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/CachedObjectStorage/Igbinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/CachedObjectStorage/Memcache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/CachedObjectStorage/Memory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/CachedObjectStorage/MemoryGZip.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/CachedObjectStorage/MemorySerialized.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/CachedObjectStorage/SQLite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/CachedObjectStorage/SQLite3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/CachedObjectStorage/Wincache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/CachedObjectStorageFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/CalcEngine/CyclicReferenceStack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/CalcEngine/Logger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/DateTime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/Engineering.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/ExceptionHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/Financial.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/FormulaParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/FormulaToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/Function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/Functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/Logical.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/LookupRef.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/MathTrig.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/Statistical.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/TextData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/Token/Stack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Calculation/functionlist.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Cell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Cell/AdvancedValueBinder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Cell/DataType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Cell/DataValidation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Cell/DefaultValueBinder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Cell/Hyperlink.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Cell/IValueBinder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Chart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Chart/Axis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Chart/DataSeries.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Chart/DataSeriesValues.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Chart/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Chart/GridLines.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Chart/Layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Chart/Legend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Chart/PlotArea.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Chart/Properties.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Chart/Renderer/PHP Charting Libraries.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Chart/Renderer/jpgraph.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Chart/Title.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/DocumentProperties.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/DocumentSecurity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/HashTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Helper/HTML.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/IComparable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/IOFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/NamedRange.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Abstract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/CSV.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/DefaultReadFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Excel2003XML.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Excel2007.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Excel2007/Chart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Excel2007/Theme.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Excel5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Excel5/Color.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Excel5/Color/BIFF5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Excel5/Color/BIFF8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Excel5/Color/BuiltIn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Excel5/ErrorCode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Excel5/Escher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Excel5/MD5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Excel5/RC4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Excel5/Style/Border.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Excel5/Style/FillPattern.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/Gnumeric.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/HTML.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/IReadFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/IReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/OOCalc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Reader/SYLK.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/ReferenceHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/RichText.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/RichText/ITextElement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/RichText/Run.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/RichText/TextElement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/CodePage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/Date.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/Drawing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/Escher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/Escher/DgContainer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/Escher/DggContainer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE/Blip.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/Excel5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/Font.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/JAMA/CHANGELOG.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/JAMA/CholeskyDecomposition.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/JAMA/EigenvalueDecomposition.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/JAMA/LUDecomposition.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/JAMA/Matrix.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/JAMA/SingularValueDecomposition.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/JAMA/utils/Error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/JAMA/utils/Maths.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/OLE.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/OLE/ChainedBlockStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/OLE/PPS.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/OLE/PPS/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/OLE/PPS/Root.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/OLERead.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/PCLZip/gnu-lgpl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/PCLZip/pclzip.lib.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/PCLZip/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/PasswordHasher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/String.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/TimeZone.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/XMLWriter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/ZipArchive.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/ZipStreamWrapper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/trend/bestFitClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/trend/linearBestFitClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/trend/logarithmicBestFitClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/trend/polynomialBestFitClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/trend/powerBestFitClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Shared/trend/trendClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Style.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Style/Alignment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Style/Border.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Style/Borders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Style/Color.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Style/Conditional.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Style/Fill.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Style/Font.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Style/NumberFormat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Style/Protection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Style/Supervisor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/AutoFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/AutoFilter/Column.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/AutoFilter/Column/Rule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/BaseDrawing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/CellIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/Column.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/ColumnCellIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/ColumnDimension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/ColumnIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/Dimension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/Drawing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/Drawing/Shadow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/HeaderFooter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/HeaderFooterDrawing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/MemoryDrawing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/PageMargins.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/PageSetup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/Protection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/Row.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/RowCellIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/RowDimension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/RowIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Worksheet/SheetView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/WorksheetIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Abstract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/CSV.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel2007.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel2007/Chart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel2007/Comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel2007/ContentTypes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel2007/DocProps.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel2007/Drawing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel2007/Rels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel2007/RelsRibbon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel2007/RelsVBA.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel2007/StringTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel2007/Style.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel2007/Theme.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel2007/Workbook.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel2007/Worksheet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel2007/WriterPart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel5/BIFFwriter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel5/Escher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel5/Font.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel5/Parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel5/Workbook.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel5/Worksheet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Excel5/Xf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/HTML.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/IWriter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/OpenDocument.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/OpenDocument/Cell/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/OpenDocument/Content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/OpenDocument/Meta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/OpenDocument/MetaInf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/OpenDocument/Mimetype.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/OpenDocument/Settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/OpenDocument/Styles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/OpenDocument/Thumbnails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/OpenDocument/WriterPart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/PDF.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/PDF/Core.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/PDF/DomPDF.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/PDF/mPDF.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/Writer/PDF/tcPDF.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/bg/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/cs/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/cs/functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/da/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/da/functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/de/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/de/functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/en/uk/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/es/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/es/functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/fi/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/fi/functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/fr/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/fr/functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/hu/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/hu/functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/it/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/it/functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/nl/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/nl/functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/no/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/no/functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/pl/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/pl/functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/pt/br/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/pt/br/functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/pt/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/pt/functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/ru/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/ru/functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/sv/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/sv/functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/tr/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Classes/PHPExcel/locale/tr/functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Calculations/Database/DAVERAGE.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Calculations/Database/DCOUNT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Calculations/Database/DGET.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Calculations/Database/DMAX.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Calculations/Database/DMIN.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Calculations/Database/DPRODUCT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Calculations/Database/DSTDEV.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Calculations/Database/DSTDEVP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Calculations/Database/DVAR.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Calculations/Database/DVARP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Calculations/DateTime/DATE.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Calculations/DateTime/DATEVALUE.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Calculations/DateTime/TIME.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Calculations/DateTime/TIMEVALUE.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Calculations/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader06.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader07.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader08.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader09.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader10.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader11.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader12.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader13.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader14.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader15.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader16.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader17.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader18.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/exampleReader19.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/sampleData/example1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/sampleData/example1.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/sampleData/example1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/sampleData/example2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reader/sampleData/example2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reading WorkBook Data/exampleWorkBookReader01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reading WorkBook Data/exampleWorkBookReader02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reading WorkBook Data/exampleWorkBookReader03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reading WorkBook Data/exampleWorkBookReader04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reading WorkBook Data/sampleData/example1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reading WorkBook Data/sampleData/example1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/Reading WorkBook Data/sampleData/example2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Examples/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/FunctionListByCategory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/FunctionListByName.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/Functionality Cross-Reference.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/PHPExcel AutoFilter Reference developer documentation.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/PHPExcel Function Reference developer documentation.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/PHPExcel User Documentation - Reading Spreadsheet Files.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/PHPExcel developer documentation.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/Architecture.cd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/Architecture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/ClassDiagrams.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/ClassDiagrams.csproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/ClassDiagrams.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/Classes/IReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/Classes/IWriter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/Classes/PHPExcel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/Classes/PHPExcel_IOFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/Classes/PHPExcel_Reader_Excel2007.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/Classes/PHPExcel_Reader_Excel5.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/Classes/PHPExcel_Reader_Serialized.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/Classes/PHPExcel_Writer_Excel2007.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/Classes/PHPExcel_Writer_Serialized.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/Classes/Worksheet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/Exports/Architecture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/Exports/ReaderWriter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/ReaderWriter.cd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/assets/ClassDiagrams/ReaderWriter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/CalculationEngine/FunctionReference/01-Introduction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/CalculationEngine/FunctionReference/02-01-Date-and-Time-Handling.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/CalculationEngine/FunctionReference/02-General-Introduction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/CalculationEngine/FunctionReference/03-01-Cube-Functions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/CalculationEngine/FunctionReference/03-02-Database-Functions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/CalculationEngine/FunctionReference/03-03-Date-and-Time-Functions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/01-Autofilters.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/02-Setting-an-Autofilter.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/03-Autofilter-Expressions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/04-01-Autofilter-Expressions-Simple.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/04-02-Autofilter-Expressions-Dategroup.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/04-03-Autofilter-Expressions-Custom.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/04-04-Autofilter-Expressions-Dynamic.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/04-05-Autofilter-Expressions-Topten.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/05-Executing-Autofilters.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/06-Autofilter-Sorting.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/images/01-01-autofilter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/images/01-02-autofilter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/images/01-03-filter-icon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/images/01-03-filter-icon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/images/01-04-autofilter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/images/04-01-simple-autofilter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/images/04-02-dategroup-autofilter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/images/04-03-custom-autofilter-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/images/04-03-custom-autofilter-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/images/04-04-dynamic-autofilter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/images/04-05-topten-autofilter-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Features/Autofilters/images/04-05-topten-autofilter-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Functions/FunctionListByCategory.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Functions/FunctionListByName.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/01-Getting-Started.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/02-Architecture.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/03-Creating-a-Spreadsheet.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/04-Configuration-Settings.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/05-Deleting-a-Workbook.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/06-Worksheets.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/07-Accessing-Cells.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/08-Recipes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/09-Calculation-Engine.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/10-Reading-and-Writing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/11-Appendices.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/images/01-schematic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/images/02-readers-writers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/images/07-simple-example-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/images/07-simple-example-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/images/07-simple-example-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/images/07-simple-example-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/images/08-cell-comment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/images/08-column-width.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/images/08-page-setup-margins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/images/08-page-setup-scaling-options.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/images/08-styling-border-options.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/images/09-command-line-calculation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/images/09-formula-in-cell-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/Overview/images/09-formula-in-cell-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/ReadingSpreadsheetFiles/01-File-Formats.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/ReadingSpreadsheetFiles/02-Security.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/ReadingSpreadsheetFiles/03-Loading-a-Spreadsheet.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/ReadingSpreadsheetFiles/04-Loading-with-a-Reader.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/ReadingSpreadsheetFiles/05-Reader-Options.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/ReadingSpreadsheetFiles/06-Error-Handling.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Documentation/markdown/ReadingSpreadsheetFiles/07-Helper-Methods.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/01pharSimple.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/01simple-download-ods.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/01simple-download-pdf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/01simple-download-xls.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/01simple-download-xlsx.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/01simple.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/01simplePCLZip.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/02types-xls.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/02types.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/03formulas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/04printing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/05featuredemo.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/05featuredemo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/06largescale-with-cellcaching-sqlite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/06largescale-with-cellcaching-sqlite3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/06largescale-with-cellcaching.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/06largescale-xls.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/06largescale.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/07reader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/07readerPCLZip.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/08conditionalformatting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/08conditionalformatting2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/09pagebreaks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/10autofilter-selection-1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/10autofilter-selection-2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/10autofilter-selection-display.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/10autofilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/11documentsecurity-xls.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/11documentsecurity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/12cellProtection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/13calculation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/13calculationCyclicFormulae.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/14excel5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/15datavalidation-xls.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/15datavalidation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/16csv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/17html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/18extendedcalculation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/19namedrange.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/20readexcel5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/21pdf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/22heavilyformatted.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/23sharedstyles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/24readfilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/25inmemoryimage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/26utf8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/27imagesexcel5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/28iterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/29advancedvaluebinder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/30template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/31docproperties_write-xls.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/31docproperties_write.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/32chartreadwrite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/33chartcreate-area.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/33chartcreate-bar-stacked.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/33chartcreate-bar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/33chartcreate-column-2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/33chartcreate-column.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/33chartcreate-composite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/33chartcreate-line.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/33chartcreate-multiple-charts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/33chartcreate-pie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/33chartcreate-radar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/33chartcreate-scatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/33chartcreate-stock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/34chartupdate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/35chartrender.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/36chartreadwriteHTML.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/36chartreadwritePDF.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/37page_layout_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/38cloneWorksheet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/39dropdown.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/40duplicateStyle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/41password.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/42richText.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/43mergeWorkbooks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/44worksheetInfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/Excel2003XMLReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/Excel2003XMLTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/GnumericReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/GnumericTest.gnumeric" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/OOCalcReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/OOCalcReaderPCLZip.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/OOCalcTest.ods" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/Quadratic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/Quadratic2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/SylkReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/SylkTest.slk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/XMLReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/XMLTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/data/continents/Africa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/data/continents/Asia.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/data/continents/Europe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/data/continents/North America.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/data/continents/Oceania.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/data/continents/South America.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/images/paid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/images/phpexcel_logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/Examples/runall.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/ExcelIndex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/AutoloaderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Calculation/DateTimeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Calculation/EngineeringTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Calculation/FinancialTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Calculation/FunctionsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Calculation/LogicalTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Calculation/LookupRefTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Calculation/MathTrigTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Calculation/TextDataTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/CalculationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Cell/AdvancedValueBinderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Cell/DataTypeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Cell/DefaultValueBinderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Cell/HyperlinkTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/CellTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Chart/DataSeriesValuesTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Chart/LayoutTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Chart/LegendTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Reader/XEEValidatorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/ReferenceHelperTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/SettingsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Shared/CodePageTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Shared/DateTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Shared/FileTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Shared/FontTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Shared/PasswordHasherTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Shared/StringTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Shared/TimeZoneTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Style/ColorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Style/NumberFormatDateTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Style/NumberFormatTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Worksheet/AutoFilter/Column/RuleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Worksheet/AutoFilter/ColumnTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Worksheet/AutoFilterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Worksheet/CellCollectionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Worksheet/ColumnCellIteratorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Worksheet/ColumnIteratorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Worksheet/RowCellIteratorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Worksheet/RowIteratorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Worksheet/WorksheetColumnTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/Classes/PHPExcel/Worksheet/WorksheetRowTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/custom/Complex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/custom/complexAssert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/phpunit-cc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/DATE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/DATEDIF.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/DATEVALUE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/DAY.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/DAYS360.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/EDATE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/EOMONTH.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/HOUR.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/MINUTE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/MONTH.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/NETWORKDAYS.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/SECOND.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/TIME.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/TIMEVALUE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/WEEKDAY.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/WEEKNUM.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/WORKDAY.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/YEAR.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/DateTime/YEARFRAC.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/BESSELI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/BESSELJ.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/BESSELK.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/BESSELY.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/BIN2DEC.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/BIN2HEX.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/BIN2OCT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/COMPLEX.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/CONVERTUOM.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/DEC2BIN.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/DEC2HEX.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/DEC2OCT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/DELTA.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/ERF.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/ERFC.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/GESTEP.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/HEX2BIN.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/HEX2DEC.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/HEX2OCT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMABS.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMAGINARY.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMARGUMENT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMCONJUGATE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMCOS.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMDIV.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMEXP.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMLN.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMLOG10.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMLOG2.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMPOWER.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMPRODUCT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMREAL.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMSIN.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMSQRT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMSUB.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/IMSUM.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/OCT2BIN.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/OCT2DEC.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Engineering/OCT2HEX.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/ACCRINT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/ACCRINTM.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/AMORDEGRC.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/AMORLINC.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/COUPDAYBS.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/COUPDAYS.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/COUPDAYSNC.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/COUPNCD.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/COUPNUM.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/COUPPCD.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/CUMIPMT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/CUMPRINC.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/DB.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/DDB.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/DISC.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/DOLLARDE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/DOLLARFR.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/EFFECT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/FV.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/FVSCHEDULE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/INTRATE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/IPMT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/IRR.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/ISPMT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/MIRR.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/NOMINAL.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/NPER.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/NPV.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/PRICE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/RATE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Financial/XIRR.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Functions/ERROR_TYPE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Functions/IS_BLANK.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Functions/IS_ERR.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Functions/IS_ERROR.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Functions/IS_EVEN.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Functions/IS_LOGICAL.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Functions/IS_NA.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Functions/IS_NONTEXT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Functions/IS_NUMBER.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Functions/IS_ODD.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Functions/IS_TEXT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Functions/N.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Functions/TYPE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Logical/AND.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Logical/IF.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Logical/IFERROR.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Logical/NOT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/Logical/OR.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/LookupRef/HLOOKUP.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/LookupRef/VLOOKUP.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/ATAN2.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/CEILING.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/COMBIN.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/EVEN.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/FACT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/FACTDOUBLE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/FLOOR.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/GCD.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/INT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/LCM.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/LOG.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/MDETERM.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/MINVERSE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/MMULT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/MOD.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/MROUND.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/MULTINOMIAL.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/ODD.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/POWER.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/PRODUCT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/QUOTIENT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/ROMAN.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/ROUNDDOWN.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/ROUNDUP.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/SERIESSUM.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/SIGN.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/SQRTPI.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/SUMIFS.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/SUMSQ.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/MathTrig/TRUNC.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/CHAR.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/CLEAN.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/CODE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/CONCATENATE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/DOLLAR.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/FIND.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/FIXED.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/LEFT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/LEN.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/LOWER.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/MID.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/PROPER.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/REPLACE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/RIGHT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/SEARCH.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/SUBSTITUTE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/T.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/TEXT.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/TRIM.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/UPPER.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Calculation/TextData/VALUE.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/CalculationBinaryComparisonOperation.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Cell/DefaultValueBinder.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/CellAbsoluteCoordinate.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/CellAbsoluteReference.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/CellBuildRange.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/CellCoordinates.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/CellExtractAllCellReferencesInRange.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/CellGetRangeBoundaries.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/CellRangeBoundaries.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/CellRangeDimension.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/CellSplitRange.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/ColumnIndex.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/ColumnString.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Reader/XEETestInvalidUTF-16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Reader/XEETestInvalidUTF-16BE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Reader/XEETestInvalidUTF-16LE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Reader/XEETestInvalidUTF-8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Reader/XEETestValidUTF-16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Reader/XEETestValidUTF-16BE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Reader/XEETestValidUTF-16LE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Reader/XEETestValidUTF-8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Shared/CentimeterSizeToPixels.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Shared/CodePage.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Shared/DateTimeExcelToPHP1900.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Shared/DateTimeExcelToPHP1900Timezone.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Shared/DateTimeExcelToPHP1904.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Shared/DateTimeFormatCodes.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Shared/DateTimeFormattedPHPToExcel1900.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Shared/DateTimePHPToExcel1900.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Shared/DateTimePHPToExcel1904.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Shared/FontSizeToPixels.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Shared/InchSizeToPixels.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Shared/PasswordHashes.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Style/ColorChangeBrightness.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Style/ColorGetBlue.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Style/ColorGetGreen.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Style/ColorGetRed.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Style/NumberFormat.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/rawTestData/Style/NumberFormatDates.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excelr/unitTests/testDataFileIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timer/Times.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Excelr/ExcelIndex.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+              <folding>
+                <element signature="e#6#87#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Test.php" />
+        <option value="$PROJECT_DIR$/Timer/Times.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Excelr/ExcelIndex.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="php-plug" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-plug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-plug" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-plug" type="462c0819:PsiDirectoryNode" />
+              <item name="Excelr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-plug" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-plug" type="462c0819:PsiDirectoryNode" />
+              <item name="Timer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\php-plug\Excelr" />
+      <recent name="D:\php-plug\Timer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ec1b70b-e65e-4858-9c36-f3cbd9505087" name="Default Changelist" comment="" />
+      <created>1553824375155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553824375155</updated>
+      <workItem from="1553824376452" duration="2690000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2690000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Excelr/install.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Excelr/Build/build.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Timer/Times.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Excelr/Classes/PHPExcel/IOFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Excelr/ExcelIndex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
