@@ -8,6 +8,12 @@
  */
 require_once './Timer/Times.php';
 require_once './Excelr/ExcelIndex.php';
+require_once './Pinyin/Pinyin.php';
+//echo Pinyin::getPinyin("你麻痹");//获取拼音
+//echo "<br/>";
+//echo Pinyin::getShortPinyin("你麻痹");//获取拼音首写
+
+
 $times = new \Timer\Times();
 $times::thisWeek();
 
