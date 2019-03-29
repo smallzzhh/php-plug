@@ -35,4 +35,6 @@ $data = [
         'e'=>'33333',
     ]
 ];
-var_dump($excel->Export($data,['一','二','三','四','五'],'测试',['A', 'B', 'C', 'D', 'E']));
+//var_dump($excel->Export($data,['一','二','三','四','五'],'测试',['A', 'B', 'C', 'D', 'E']));
+$res = $excel->Import('test1.xls');
+var_dump($res);

@@ -89,9 +89,31 @@ class ExcelIndex
     /**
      * 导入
      */
-    public function Import()
+    /**
+     * @param string $filename  要导入的文件
+     * @param int $start_get    从那一行开始读取
+     * @throws \PHPExcel_Exception
+     * @throws \PHPExcel_Reader_Exception
+     */
+    public function Import($file,$start_get=3)
     {
-
+        if (!file_exists($file)) {
+            return '文件不存在';
+        }
+        $objPHPExcel = \PHPExcel_IOFactory::load($file); //自动文件类型 无需自定义
+        $sheet = $objPHPExcel->getSheet(0);
+        $highestRow = $sheet->getHighestRow(); // 取得总行数
+        $index = 0;
+        $hang_tit = ['A'=>'name','B'=>'title','C'=>'phone','D'=>'sex'];
+        $list = [];
+        for($start_get;$start_get<=$highestRow;$start_get++)
+        {
+            foreach ($hang_tit as $k=>$v){
+                $list[$index][$v] = trim($objPHPExcel->getActiveSheet()->getCell($k.$start_get)->getValue());//获取A列的值
+            }
+            $index ++;
+        }
+        return $list;
     }
 
     private function _remerge($arr, $let, $field)

@@ -12,6 +12,8 @@ $times = new \Timer\Times();
 
 $times::thisWeek();
 
+# **~~_导出数据到excel_~~**
+
 $excel = new \Excelr\ExcelIndex();
 
 $data = [
@@ -40,3 +42,12 @@ $data = [
 ];
 
 $excel->Export($data,['一','二','三','四','五'],'测试',['A', 'B', 'C', 'D', 'E']);
+
+# **~~_导入excel数据到数据库_~~**
+$res = $excel->Import('test1.xls');
+
+var_dump($res);
+
+$res是一个二维数组
+
+循环也好，一次插入多条也好，反正这里是你的sql语句
