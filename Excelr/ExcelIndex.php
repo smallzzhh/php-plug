@@ -92,10 +92,11 @@ class ExcelIndex
     /**
      * @param string $filename  要导入的文件
      * @param int $start_get    从那一行开始读取
+     * @param int $hang_tit     定义返回字段以及要导入的列 $hang_tit = ['A'=>'name','B'=>'title','C'=>'phone','D'=>'sex'];
      * @throws \PHPExcel_Exception
      * @throws \PHPExcel_Reader_Exception
      */
-    public function Import($file,$start_get=3)
+    public function Import($file,$hang_tit=[],$start_get=3)
     {
         if (!file_exists($file)) {
             return '文件不存在';
@@ -104,7 +105,7 @@ class ExcelIndex
         $sheet = $objPHPExcel->getSheet(0);
         $highestRow = $sheet->getHighestRow(); // 取得总行数
         $index = 0;
-        $hang_tit = ['A'=>'name','B'=>'title','C'=>'phone','D'=>'sex'];
+
         $list = [];
         for($start_get;$start_get<=$highestRow;$start_get++)
         {
